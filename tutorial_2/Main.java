@@ -1,12 +1,14 @@
-public class Main{
-    
-    public static void main(String[] args){
-        Car mycar = new Car();
-        mycar.brand = "Mercedez-Benz";
-        mycar.color = "grey";
-        mycar.speed = 100;
 
-        // System.out.println(mycar.brand);
-        mycar.displayInfo();
+public class Main {
+
+    public static void main(String[] args) {
+
+        Person p1 = new Person("Ali", "001");
+        Person p2 = new Student("John", "002");
+        Person p3 = new Lecturer("David", "003");
+
+        p1.introduce();
+        p2.introduce();
+        p3.introduce();
     }
 }

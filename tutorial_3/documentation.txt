@@ -1,0 +1,22 @@
+
+Week 5 - Student Information System
+
+1. Why are the variables declared as private?
+
+The variables are declared as private to protect student information.
+Other classes cannot access them directly.
+
+2. What happens if the variables are declared public?
+
+Other classes can access and change the variables directly.
+This may cause incorrect data.
+
+3. Why do we use getters and setters?
+
+Getters are used to get the values.
+Setters are used to change the values safely.
+
+4. Additional Variable
+
+Programme is added to store the student's programme name.
+Example: BIT
